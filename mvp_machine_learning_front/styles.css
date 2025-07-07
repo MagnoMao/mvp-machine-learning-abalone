@@ -1,0 +1,52 @@
+body{
+    background-image: url('https://steamuserimages-a.akamaihd.net/ugc/1674743029859866757/93596D3CADBEF60D47C41A1DE5EA3ADDA17970AD/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false');
+    background-size:  cover;
+    padding: 0;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+header {
+    margin: 0;
+    top: 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.title {
+    color: black;
+    font-size: 2em;
+    text-shadow: 2px 2px gray;
+    width: 100%;
+    display: inline-block;
+    padding: 2px 0px;
+    position: sticky;
+    top: 0px;
+}
+
+#formulario{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#formulario input{
+    margin: 0 2px;
+    border: 1px solid rgb(35, 32, 24);
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#consultar {
+    padding: 9px 10px;
+    background-color: rgb(35, 32, 24);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Biblioteca MPV</title>
+</head>
+
+<body>
+     <!-- Cabeçalho de informações do sistema -->
+    <header>
+        <div class="title">
+            <h2>Como está a sua saude?</h2>
+        </div>
+    </header>
+
+
+    <main id="principal">
+        <form id="formulario" action="">
+            <input type="text" id="Clump_thickness"           class="newItem" placeholder="Clump thickness" oninput="digits_1_to_10(this)">
+            <input type="text" id="Uniformity_of_cell_size"   class="newItem" placeholder="Uniformity of cell size" oninput="digits_1_to_10(this)">
+            <input type="text" id="Uniformity_of_cell_shape"  class="newItem" placeholder="Uniformity of cell shape" oninput="digits_1_to_10(this)">
+            <input type="text" id="Marginal_adhesion"         class="newItem" placeholder="Marginal adhesion" oninput="digits_1_to_10(this)">
+            <input type="text" id="Single_epithelial_cell_size" class="newItem" placeholder="Single epithelial_cell_size" oninput="digits_1_to_10(this)">
+            <input type="text" id="Bare_nuclei"               class="newItem" placeholder="Bare nuclei" oninput="digits_1_to_10(this)">
+            <input type="text" id="Bland_chromatin"           class="newItem" placeholder="Bland chromatin" oninput="digits_1_to_10(this)">
+            <input type="text" id="Normal_nucleoli"           class="newItem" placeholder="Normal nucleoli" oninput="digits_1_to_10(this)">
+            <input type="text" id="Mitoses"                   class="newItem" placeholder="Mitoses" oninput="digits_1_to_10(this)">
+            <button id="form_btn" onclick="consultar()">Consultar</button>
+
+        </form>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
+
+
